@@ -19,3 +19,26 @@ a{color:var(--gold)}
 footer{max-width:760px;margin:0 auto;padding:0 16px 32px;color:var(--muted);font-size:.85rem}
 code{word-break:break-all}
 main p,main li{overflow-wrap:anywhere}
+/* ブログ記事（tools/blog.py） */
+h2[id],#sources{scroll-margin-top:16px}
+.video{position:relative;aspect-ratio:16/9;margin:16px 0}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:12px}
+.notice{font-size:.9rem;color:var(--muted)}
+.point-title{font-weight:700;color:var(--navy);margin-bottom:6px}
+.point table{width:100%;border-collapse:collapse}
+.point th,.point td{border-top:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}
+.point th{white-space:nowrap;color:var(--navy);width:1%}
+.point ul,.point ol,.toc ol{margin:0;padding-left:1.4em}
+.flow li{margin:4px 0}
+mark{background:linear-gradient(transparent 58%,#FFD95A 58%);color:inherit;padding:0 2px}
+.talk{display:flex;gap:12px;align-items:flex-start;margin:14px 0}
+.talk img{flex:none;width:56px;height:56px;border-radius:50%;background:var(--card);border:1px solid var(--line)}
+.talk .who{font-size:.8rem;font-weight:700;color:var(--muted)}
+.talk p{margin:2px 0 0;background:var(--card);border:1px solid var(--line);border-radius:4px 14px 14px 14px;padding:8px 14px}
+.talk.cat p{border-color:#8a97ad}
+.talk.dog p{border-color:#e0a25b}
+.sources li{margin:6px 0;font-size:.9rem}
+.articles{list-style:none;padding:0}
+.articles a{display:block;color:var(--ink);text-decoration:none}
+.articles img{width:100%;height:auto;border-radius:8px;display:block;margin-bottom:8px}
+.articles .muted{display:block;margin-top:4px}
